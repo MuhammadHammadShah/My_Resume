@@ -11,6 +11,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       signature: ["'Great Vibes', cursive;"],
+      khanBaBa: ["'Cookie', cursive;"],
     },
   },
   plugins: [],
