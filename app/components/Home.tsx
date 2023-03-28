@@ -25,11 +25,13 @@ export const Home = () => {
       </div>
       {/* left corner ends */}
       <div className="p-5">
-        {/* right corner starts */}
-        <img
-          src="https://cdn.pixabay.com/photo/2016/03/12/23/18/man-1253004__340.jpg"
-          alt="just an image"
-        />
+        <div>
+          {/* right corner starts */}
+          <img
+            src="https://cdn.pixabay.com/photo/2016/03/12/23/18/man-1253004__340.jpg"
+            alt="just an image"
+          />
+        </div>
         {/* right corner ends */}
       </div>
     </section>
