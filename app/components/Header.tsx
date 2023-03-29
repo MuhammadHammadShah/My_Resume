@@ -38,25 +38,27 @@ export const Header = () => {
           </div>
         </div>
         {/* overlay stays here  */}
-        <div className="fixed top-0 left-0 bg-slate-600 h-screen text-red-500 w-full flex justify-center items-center  ">
-          <ul className="md:flex left-10 text-white m-7 ">
-            <li className="text-2xl mx-5 font-khanBaBa hover:scale-150 duration-200">
-              Home
-            </li>
-            <li className="text-2xl mx-5 font-khanBaBa hover:scale-150 duration-200">
-              About
-            </li>
-            <li className="text-2xl mx-5 font-khanBaBa hover:scale-150 duration-200">
-              Skill
-            </li>
-            <li className="text-2xl mx-5 font-khanBaBa hover:scale-150 duration-200">
-              Portfolio
-            </li>
-            <li className="text-2xl mx-5 font-khanBaBa hover:scale-150 duration-200">
-              Contact
-            </li>
-          </ul>
-        </div>
+        {!toggle ? (
+          <div className="fixed top-0 left-0 bg-slate-600 h-screen text-red-500 w-full flex justify-center items-center  ">
+            <ul className="md:flex left-10 text-white m-7 ">
+              <li className=" mt-10 mx-5 text-8xl font-khanBaBa hover:scale-150 duration-200">
+                Home
+              </li>
+              <li className=" mt-10 mx-5 text-8xl font-khanBaBa hover:scale-150 duration-200">
+                About
+              </li>
+              <li className=" mt-10 mx-5 text-8xl font-khanBaBa hover:scale-150 duration-200">
+                Skill
+              </li>
+              <li className=" mt-10 mx-5 text-8xl font-khanBaBa hover:scale-150 duration-200">
+                Portfolio
+              </li>
+              <li className=" mt-10 mx-5 text-8xl font-khanBaBa hover:scale-150 duration-200">
+                Contact
+              </li>
+            </ul>
+          </div>
+        ) : null}
         {/* overlay ends here  */}
       </section>
     </div>
