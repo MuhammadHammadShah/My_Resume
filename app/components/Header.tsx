@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 export const Header = () => {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
   return (
     <div>
       <section className=" bg-gray-700 text-white">
@@ -41,21 +41,11 @@ export const Header = () => {
         {!toggle ? (
           <div className="fixed top-0 left-0 bg-slate-600 h-screen text-red-500 w-full flex justify-center items-center  ">
             <ul className="md:flex left-10 text-white m-7 ">
-              <li className=" mt-10 mx-5 text-8xl font-khanBaBa hover:scale-150 duration-200">
-                Home
-              </li>
-              <li className=" mt-10 mx-5 text-8xl font-khanBaBa hover:scale-150 duration-200">
-                About
-              </li>
-              <li className=" mt-10 mx-5 text-8xl font-khanBaBa hover:scale-150 duration-200">
-                Skill
-              </li>
-              <li className=" mt-10 mx-5 text-8xl font-khanBaBa hover:scale-150 duration-200">
-                Portfolio
-              </li>
-              <li className=" mt-10 mx-5 text-8xl font-khanBaBa hover:scale-150 duration-200">
-                Contact
-              </li>
+              <li className=" mt-10 mx-5 text-8xl font-khanBaBa  ">Home</li>
+              <li className=" mt-10 mx-5 text-8xl font-khanBaBa  ">About</li>
+              <li className=" mt-10 mx-5 text-8xl font-khanBaBa  ">Skill</li>
+              <li className=" mt-10 mx-5 text-8xl font-khanBaBa ">Portfolio</li>
+              <li className=" mt-10 mx-5 text-8xl font-khanBaBa  ">Contact</li>
             </ul>
           </div>
         ) : null}
