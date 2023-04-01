@@ -41,11 +41,25 @@ export const Header = () => {
         {!toggle ? (
           <div className="fixed top-0 left-0 bg-slate-600 h-screen text-red-500 w-full flex justify-center items-center  ">
             <ul className="md:flex left-10 text-white m-7 ">
-              <li className=" mt-10 mx-5 text-8xl font-khanBaBa  ">Home</li>
-              <li className=" mt-10 mx-5 text-8xl font-khanBaBa  ">About</li>
-              <li className=" mt-10 mx-5 text-8xl font-khanBaBa  ">Skill</li>
-              <li className=" mt-10 mx-5 text-8xl font-khanBaBa ">Portfolio</li>
-              <li className=" mt-10 mx-5 text-8xl font-khanBaBa  ">Contact</li>
+              <a className="cursor-pointer">
+                <li className=" mt-10 mx-5 text-8xl font-khanBaBa ">Home</li>
+              </a>
+              <a href="" className="">
+                <li className=" mt-10 mx-5 text-8xl font-khanBaBa  ">About</li>
+              </a>
+              <a href="" className="">
+                <li className=" mt-10 mx-5 text-8xl font-khanBaBa  ">Skill</li>
+              </a>
+              <a href="" className="">
+                <li className=" mt-10 mx-5 text-8xl font-khanBaBa ">
+                  Portfolio
+                </li>
+              </a>
+              <a href="" className="">
+                <li className=" mt-10 mx-5 text-8xl font-khanBaBa  ">
+                  Contact
+                </li>
+              </a>
             </ul>
           </div>
         ) : null}
