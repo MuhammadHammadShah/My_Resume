@@ -9,14 +9,14 @@ export const Portfolio = () => {
       <div className=" text-gray-500 px-10 mt-32 mx-auto">
         <h1 className="text-center text-4xl text-white mb-10">Portfolio</h1>
       </div>
-      <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-20 mx-auto w-full">
+      <div className=" justify-between p-[120px]  items-center grid sm:grid-cols-2 md:grid-cols-3 gap-20 mx-auto w-full">
         {/* Card_1 starts from here  */}
-        <div className=" shadow-md shadow-gray-400  h-40 hover:scale-105 duration-75">
+        <div className=" shadow-md shadow-gray-400  h-60 hover:scale-105 duration-75">
           <div>
             <img
               src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
               alt="any_image"
-              className=" w-full h-40 rounded-t-md"
+              className=" w-[300px] h-40  rounded-t-md"
             />
           </div>
 
@@ -38,7 +38,7 @@ export const Portfolio = () => {
             <img
               src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
               alt="any_image"
-              className=" w-60 h-40 rounded-t-md"
+              className=" w-[300px] h-40 rounded-t-md"
             />
           </div>
 
@@ -60,7 +60,7 @@ export const Portfolio = () => {
             <img
               src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
               alt="any_image"
-              className=" w-60 h-40 rounded-t-md"
+              className=" w-[300px] h-40 rounded-t-md"
             />
           </div>
 
@@ -82,7 +82,7 @@ export const Portfolio = () => {
             <img
               src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
               alt="any_image"
-              className=" w-60 h-40 rounded-t-md"
+              className=" w-[300px] h-40 rounded-t-md"
             />
           </div>
 
@@ -104,7 +104,7 @@ export const Portfolio = () => {
             <img
               src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
               alt="any_image"
-              className=" w-60 h-40 rounded-t-md"
+              className=" w-[300px] h-40 rounded-t-md"
             />
           </div>
 
@@ -126,7 +126,7 @@ export const Portfolio = () => {
             <img
               src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
               alt="any_image"
-              className=" w-60 h-40 rounded-t-md"
+              className=" w-[300px] h-40 rounded-t-md"
             />
           </div>
 
