@@ -5,6 +5,7 @@ import { SocialIcons } from "./components/SocialIcons";
 import { About } from "./components/About";
 import { Portfolio } from "./components/Portfolio";
 import { Skills } from "./components/Skills";
+import { Contact } from "./components/Contact";
 export default function page() {
   return (
     <div>
@@ -13,7 +14,8 @@ export default function page() {
       <Home />
       <About />
       <Portfolio />
-      <Skills />
+      {/* <Skills /> */}
+      <Contact />
     </div>
   );
 }
