@@ -3,7 +3,10 @@ import React from "react";
 export const About = () => {
   return (
     <div>
-      <div className="flex items-center max-w-4xl mx-auto leading-8 text-justify h-screen">
+      <div
+        className="flex items-center max-w-4xl mx-auto leading-8 text-justify h-screen"
+        id="about"
+      >
         <div className=" text-gray-400 px-10 mt-10 ">
           <h1 className="text-center text-4xl text-white mb-10">About</h1>
           <p>
